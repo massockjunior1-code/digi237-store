@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>DIGI237 — Produits numériques, paiement Mobile Money</title>
+<link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+<header>
+  <div class="container bar">
+    <a href="#" id="logo-link" class="logo"><span>DIGI</span><span class="accent">237</span></a>
+    <nav class="bar" style="gap:4px;">
+      <button class="nav-btn desktop-only" data-nav="account">Mon compte</button>
+      <button class="nav-btn desktop-only" data-nav="admin">Admin</button>
+      <button class="nav-btn cart" data-nav="cart">🛒 <span id="cart-count"></span></button>
+    </nav>
+  </div>
+</header>
 
+<main class="container" id="app"></main>
+
+<nav class="bottom-nav">
+  <button data-nav="store">Boutique</button>
+  <button data-nav="account">Compte</button>
+  <button data-nav="admin">Admin</button>
+</nav>
+
+<script src="/app.js"></script>
+</body>
+</html>
